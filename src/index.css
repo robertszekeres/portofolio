@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Julius+Sans+One&display=swap');
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #21232A;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.3rem;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    /* - border seulement pour FirstApp */
+    /* border: .5px solid white; */
+}
+
+button{
+    margin: 10px;
+    margin-top: 50px;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    background-color: #21232A;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.bp{
+    border-radius: 50%;
+}
+
+.bm{
+    border-radius: 50%;
+}
+
+
+.counterApp{
+    width: 21rem;
+    height: 15rem;
+    border: 1px solid white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 30px;
+}
