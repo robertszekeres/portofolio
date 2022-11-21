@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Julius+Sans+One&display=swap'); */
+
+
+
+
+html, body {
+    background-color: #21232A;
+    color: white;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    padding: 100px;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    border: 0;
+    gap: .65rem;
+    background: transparent;
+}
+
+button > div{
+    background: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: left;
+}
+
+button:hover div:first-child{
+    transform: rotate(45deg);
+}
+
+button:hover div:nth-child(2){
+    opacity: 0;
+}
+
+button:hover div:nth-child(3){
+    transform: rotate(-45deg);
+}
